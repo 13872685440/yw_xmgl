@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily>
+	<Meeting>
+		<query id="Meeting_mainQuery">
+			<sql>select o from Meeting o where (1=1)
+				and ( (:title is null or :title ='') or lower(o.title) like concat('%',concat(lower(:title)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</sql>
+			<countsql>select count(o.id) from Meeting o where (1=1)
+				and ( (:title is null or :title ='') or lower(o.title) like concat('%',concat(lower(:title)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="title">
+					<type>String</type>
+				</name>
+				<name id="userName">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</Meeting>
+	<StaffcColumn>
+		<query id="StaffcColumn_mainQuery">
+			<sql>select o from StaffcColumn o where (1=1)
+				and ( (:title is null or :title ='') or lower(o.title) like concat('%',concat(lower(:title)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</sql>
+			<countsql>select count(o.id) from StaffcColumn o where (1=1)
+				and ( (:title is null or :title ='') or lower(o.title) like concat('%',concat(lower(:title)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="title">
+					<type>String</type>
+				</name>
+				<name id="userName">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</StaffcColumn>
+	<CommonColumn>
+		<query id="CommonColumn_mainQuery">
+			<sql>select o from CommonColumn o where (1=1)
+				and ( (:title is null or :title ='') or lower(o.title) like concat('%',concat(lower(:title)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</sql>
+			<countsql>select count(o.id) from CommonColumn o where (1=1)
+				and ( (:title is null or :title ='') or lower(o.title) like concat('%',concat(lower(:title)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="title">
+					<type>String</type>
+				</name>
+				<name id="userName">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</CommonColumn>
+	<Staffc>
+		<query id="Staffc_mainQuery">
+			<sql>select o from Staffc o where (1=1)
+				and ( (:name is null or :name ='') or lower(o.name) like concat('%',concat(lower(:name)),'%'))
+				and ( (:worktel is null or :worktel ='') or lower(o.worktel) like concat('%',concat(lower(:worktel)),'%'))
+			</sql>
+			<countsql>select count(o.id) from Staffc o where (1=1)
+				and ( (:name is null or :name ='') or lower(o.name) like concat('%',concat(lower(:name)),'%'))
+				and ( (:worktel is null or :worktel ='') or lower(o.worktel) like concat('%',concat(lower(:worktel)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="name">
+					<type>String</type>
+				</name>
+				<name id="worktel">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</Staffc>
+</daily>

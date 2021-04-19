@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: yw_xmgl
+Implementation-Version: 1.0
+Built-By: wul
+Implementation-Vendor-Id: com.cat
+Build-Jdk: 1.8.0_45
+Implementation-URL: https://spring.io/projects/spring-boot/ywxmgl
+Created-By: Maven Integration for Eclipse
+

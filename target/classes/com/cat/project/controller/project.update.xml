@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<Content>
+		<query id="Content_revoke">
+			<!-- isnative 非必要节点 默认为false -->
+			<isnative>false</isnative>
+			<sql>update Content o set o.dictionaryData='0'
+				where o.keyValue=:keyValue
+			</sql>
+			<parm id="keyValue">
+				<type>String</type>
+			</parm>
+		</query>
+	</Content>
+	<Offer>
+		<query id="Offer_revoke">
+			<!-- isnative 非必要节点 默认为false -->
+			<isnative>false</isnative>
+			<sql>update Offer o set o.dictionaryData='0'
+				where o.keyValue=:keyValue
+			</sql>
+			<parm id="keyValue">
+				<type>String</type>
+			</parm>
+		</query>
+	</Offer>
+</project>

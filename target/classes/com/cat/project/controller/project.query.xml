@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <Schedule>
+        <query id="Schedule_getCode">
+            <!-- isnative 非必要节点 默认为false -->
+            <isnative>false</isnative>
+            <sql>select nvl2(max(substr(lower(o.code),7,2)),
+                to_char(max(substr(lower(o.code),7,2))+1,'00MI'),to_char('01'))
+                from Schedule o
+                where  o.coding like :code||'%'
+            </sql>
+            <parm>
+                <name id="code">
+                    <type>String</type>
+                </name>
+            </parm>
+        </query>
+        <query id="Schedule_getCoding">
+            <!-- isnative 非必要节点 默认为false -->
+            <isnative>false</isnative>
+            <sql>select o
+                from Schedule o
+                where o.contractCodding is null
+                and o.coding like '%'|| :coding||'%'
+            </sql>
+            <parm>
+                <name id="coding">
+                    <type>String</type>
+                </name>
+            </parm>
+        </query>
+    </Schedule>
+    <Contract>
+        <query id="Contract_getCoding">
+            <!-- isnative 非必要节点 默认为false -->
+            <isnative>false</isnative>
+            <sql>select o
+                from Contract o
+                where o.coding like '%'|| :coding||'%'
+                and isRelation not in(:isRelation,9)
+            </sql>
+            <parm>
+                <name id="coding">
+                    <type>String</type>
+                </name>
+                <name id="isRelation">
+                    <type>int</type>
+                </name>
+            </parm>
+        </query>
+    </Contract>
+    <Aftersales>
+        <query id="Aftersales_getCode">
+            <!-- isnative 非必要节点 默认为false -->
+            <isnative>false</isnative>
+            <sql>select nvl2(max(substr(lower(o.code),7,2)),
+                to_char(max(substr(lower(o.code),7,2))+1,'00MI'),to_char('01'))
+                from Aftersales o
+                where  o.coding like :code||'%'
+            </sql>
+            <parm>
+                <name id="code">
+                    <type>String</type>
+                </name>
+            </parm>
+        </query>
+    </Aftersales>
+</project>

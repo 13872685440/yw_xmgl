@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily>
+    <Daily>
+        <query id="Daily_getTitleBySign">
+            <!-- isnative 非必要节点 默认为false -->
+            <isnative>false</isnative>
+            <sql>select o
+                from Daily o
+                where 1=1
+                and ( (:isSign is null or :isSign ='') or (o.isSign=:isSign))
+                and o.dailyDate like :dailyDate||'%'
+            </sql>
+            <parm>
+                <name id="dailyDate">
+                    <type>String</type>
+                </name>
+                <name id="isSign">
+                    <type>String</type>
+                </name>
+            </parm>
+        </query>
+        <query id="Daily_getlistDailyDate">
+            <!-- isnative 非必要节点 默认为false -->
+            <isnative>false</isnative>
+            <sql>select o
+                from Daily o
+                where 1=1
+                and (:kssj is null or :kssj='' or o.dailyDate &gt;=:kssj)
+                and (:jssj is null or :jssj='' or o.dailyDate &lt;=:jssj)
+            </sql>
+            <parm>
+                <name id="kssj">
+                    <type>String</type>
+                </name>
+                <name id="jssj">
+                    <type>String</type>
+                </name>
+            </parm>
+        </query>
+    </Daily>
+
+
+</daily>

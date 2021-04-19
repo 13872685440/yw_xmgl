@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process>
+	<Away>
+		<query id="Away_mainQuery">
+			<sql>select o from Away o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</sql>
+			<countsql>select count(o.id) from Away o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="userName">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</Away>
+	<Leave>
+		<query id="Leave_mainQuery">
+			<sql>select o from Leave o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</sql>
+			<countsql>select count(o.id) from Leave o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="userName">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</Leave>
+
+</process>

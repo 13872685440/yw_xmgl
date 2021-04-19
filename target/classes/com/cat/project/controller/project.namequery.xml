@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<Schedule>
+		<query id="Schedule_mainQuery">
+			<sql>select o from Schedule o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:coding is null or :coding ='') or lower(o.coding) like concat('%',concat(lower(:coding)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+				and ( (:source_code is null or :source_code ='') or (o.source.code=:source_code))
+			</sql>
+			<countsql>select count(o.id) from Schedule o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:coding is null or :coding ='') or lower(o.coding) like concat('%',concat(lower(:coding)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+				and ( (:source_code is null or :source_code ='') or (o.source.code=:source_code))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="coding">
+					<type>String</type>
+				</name>
+				<name id="userName">
+					<type>String</type>
+				</name>
+				<name id="source_code">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</Schedule>
+	<Contract>
+		<query id="Contract_mainQuery">
+			<sql>select o from Contract o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:coding is null or :coding ='') or lower(o.coding) like concat('%',concat(lower(:coding)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+				and ( (:source_code is null or :source_code ='') or (o.source.code=:source_code))
+				and ( (:projectName is null or :projectName ='') or lower(o.projectName) like concat('%',concat(lower(:projectName)),'%'))
+				and ( (:partyaName is null or :partyaName ='') or lower(o.partyaName) like concat('%',concat(lower(:partyaName)),'%'))
+				and ( (:xmgd_coding is null or :xmgd_coding ='') or lower(o.scheduleCoding) like concat('%',concat(lower(:xmgd_coding)),'%'))
+			</sql>
+			<countsql>select count(o.id) from Contract o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:coding is null or :coding ='') or lower(o.coding) like concat('%',concat(lower(:coding)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+				and ( (:source_code is null or :source_code ='') or (o.source.code=:source_code))
+				and ( (:projectName is null or :projectName ='') or lower(o.projectName) like concat('%',concat(lower(:projectName)),'%'))
+				and ( (:partyaName is null or :partyaName ='') or lower(o.partyaName) like concat('%',concat(lower(:partyaName)),'%'))
+				and ( (:xmgd_coding is null or :xmgd_coding ='') or lower(o.scheduleCoding) like concat('%',concat(lower(:xmgd_coding)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="coding">
+					<type>String</type>
+				</name>
+				<name id="userName">
+					<type>String</type>
+				</name>
+				<name id="source_code">
+					<type>String</type>
+				</name>
+				<name id="projectName">
+					<type>String</type>
+				</name>
+				<name id="partyaName">
+					<type>String</type>
+				</name>
+				<name id="xmgd_coding">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</Contract>
+	<Equipment>
+		<query id="Equipment_mainQuery">
+			<sql>select o from Equipment o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:coding is null or :coding ='') or lower(o.coding) like concat('%',concat(lower(:coding)),'%'))
+				and ( (:xsht_coding is null or :xsht_coding ='') or lower(o.contractCoding) like concat('%',concat(lower(:xsht_coding)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</sql>
+			<countsql>select count(o.id) from Equipment o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:coding is null or :coding ='') or lower(o.coding) like concat('%',concat(lower(:coding)),'%'))
+				and ( (:xsht_coding is null or :xsht_coding ='') or lower(o.contractCoding) like concat('%',concat(lower(:xsht_coding)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="coding">
+					<type>String</type>
+				</name>
+				<name id="xsht_coding">
+					<type>String</type>
+				</name>
+				<name id="userName">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</Equipment>
+	<Aftersales>
+		<query id="Aftersales_mainQuery">
+			<sql>select o from Aftersales o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:coding is null or :coding ='') or lower(o.coding) like concat('%',concat(lower(:coding)),'%'))
+				and ( (:xsht_coding is null or :xsht_coding ='') or lower(o.contractCoding) like concat('%',concat(lower(:xsht_coding)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</sql>
+			<countsql>select count(o.id) from Aftersales o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:coding is null or :coding ='') or lower(o.coding) like concat('%',concat(lower(:coding)),'%'))
+				and ( (:xsht_coding is null or :xsht_coding ='') or lower(o.contractCoding) like concat('%',concat(lower(:xsht_coding)),'%'))
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="coding">
+					<type>String</type>
+				</name>
+				<name id="xsht_coding">
+					<type>String</type>
+				</name>
+				<name id="userName">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</Aftersales>
+</project>

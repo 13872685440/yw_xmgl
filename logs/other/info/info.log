@@ -1,0 +1,585 @@
+2021-04-19 10:09:58.294 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2021-04-19 10:09:58.317 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 17468 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 10:09:58.318 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 10:09:58.392 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-19 10:09:58.392 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-19 10:09:59.386 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:09:59.387 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 10:09:59.447 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 JPA repository interfaces.
+2021-04-19 10:09:59.466 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:09:59.467 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 10:09:59.493 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2021-04-19 10:10:01.178 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 10:10:01.190 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 10:10:01.190 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 10:10:01.191 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 10:10:01.369 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 10:10:01.369 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2968 ms
+2021-04-19 10:10:01.676 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:10:01.689 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 10:10:01.759 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 10:10:01.841 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-19 10:10:02.062 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 10:10:03.360 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 10:10:03.376 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 10:10:04.235 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 10:10:04.237 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 10:10:04.238 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 10:10:04.239 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 10:10:05.367 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 10:10:05.389 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 10:10:05.421 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 10:10:05.424 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 10:10:05.424 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 10:10:05.436 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 7.5 seconds (JVM running for 8.419)
+2021-04-19 10:10:13.287 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 10:10:13.295 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 10:19:03.674 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 10:19:03.674 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 10:19:03.683 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-19 10:50:48.796 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2021-04-19 10:50:48.824 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 18640 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 10:50:48.825 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 10:50:48.896 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-19 10:50:48.897 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-19 10:50:49.825 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:50:49.829 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 10:50:49.882 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 JPA repository interfaces.
+2021-04-19 10:50:49.902 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:50:49.904 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 10:50:49.937 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2021-04-19 10:50:51.403 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 10:50:51.416 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 10:50:51.417 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 10:50:51.417 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 10:50:51.589 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 10:50:51.589 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2692 ms
+2021-04-19 10:50:51.841 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:50:51.850 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 10:50:51.913 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 10:50:51.985 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-19 10:50:52.158 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 10:50:53.708 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 10:50:53.724 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 10:50:54.602 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 10:50:54.603 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 10:50:54.604 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 10:50:54.606 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 10:50:55.908 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 10:50:55.928 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 10:50:55.963 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 10:50:55.966 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 10:50:55.967 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 10:50:55.981 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 7.527 seconds (JVM running for 8.548)
+2021-04-19 10:51:08.391 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 10:51:08.391 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 10:51:08.398 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-04-19 10:51:11.336 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 10:51:11.344 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 10:55:04.531 [Thread-8] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 10:55:04.532 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - stopped async job due acquisition
+2021-04-19 10:55:04.532 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - stopped async job due acquisition
+2021-04-19 10:55:04.535 [Thread-8] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 10:55:04.537 [Thread-8] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-04-19 10:55:04.537 [Thread-8] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:55:04.592 [Thread-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-04-19 10:55:04.845 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 18640 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 10:55:04.845 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 10:55:05.221 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:55:05.222 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 10:55:05.252 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 JPA repository interfaces.
+2021-04-19 10:55:05.255 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:55:05.255 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 10:55:05.273 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2021-04-19 10:55:05.482 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 10:55:05.483 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 10:55:05.483 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 10:55:05.483 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 10:55:05.527 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 10:55:05.527 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 677 ms
+2021-04-19 10:55:05.586 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:55:05.592 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 10:55:05.612 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 10:55:06.411 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2021-04-19 10:55:06.412 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 10:55:06.659 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 10:55:06.659 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 10:55:06.660 [Thread-14] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 10:55:06.660 [Thread-15] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 10:55:07.029 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 10:55:07.041 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 10:55:07.046 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 10:55:07.048 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 10:55:07.048 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 10:55:07.052 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 2.274 seconds (JVM running for 259.618)
+2021-04-19 10:55:07.054 [restartedMain] INFO  o.s.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-04-19 10:55:18.800 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 10:55:18.800 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 10:55:52.311 [Thread-11] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 10:55:52.312 [Thread-14] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - stopped async job due acquisition
+2021-04-19 10:55:52.312 [Thread-15] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - stopped async job due acquisition
+2021-04-19 10:55:52.314 [Thread-11] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 10:55:52.315 [Thread-11] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-04-19 10:55:52.315 [Thread-11] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:55:52.371 [Thread-11] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2021-04-19 10:55:52.688 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 18640 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 10:55:52.689 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 10:55:53.048 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:55:53.048 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 10:55:53.082 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 JPA repository interfaces.
+2021-04-19 10:55:53.085 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:55:53.085 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 10:55:53.103 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2021-04-19 10:55:53.310 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 10:55:53.310 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 10:55:53.310 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 10:55:53.311 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 10:55:53.347 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 10:55:53.347 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 653 ms
+2021-04-19 10:55:53.392 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:55:53.396 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 10:55:53.414 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 10:55:53.935 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2021-04-19 10:55:53.936 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 10:55:54.170 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 10:55:54.170 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 10:55:54.171 [Thread-21] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 10:55:54.172 [Thread-22] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 10:55:54.202 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 10:56:03.145 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 10:56:03.145 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 10:56:03.151 [Thread-22] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - stopped async job due acquisition
+2021-04-19 10:56:03.151 [Thread-21] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - stopped async job due acquisition
+2021-04-19 10:56:03.152 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 10:56:03.153 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-04-19 10:56:03.153 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:56:03.196 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2021-04-19 10:56:03.197 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-04-19 10:56:03.203 [restartedMain] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-19 10:56:42.340 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 18640 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 10:56:42.340 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 10:56:42.765 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:56:42.766 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 10:56:42.802 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 JPA repository interfaces.
+2021-04-19 10:56:42.808 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:56:42.808 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 10:56:42.835 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2021-04-19 10:56:43.067 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 10:56:43.068 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 10:56:43.068 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 10:56:43.068 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 10:56:43.121 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 10:56:43.122 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 777 ms
+2021-04-19 10:56:43.173 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:56:43.177 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 10:56:43.196 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 10:56:43.976 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+2021-04-19 10:56:43.977 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 10:56:44.198 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 10:56:44.198 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 10:56:44.198 [Thread-26] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 10:56:44.199 [Thread-27] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 10:56:44.228 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:14:26.764 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2021-04-19 11:14:26.808 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 17384 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 11:14:26.809 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 11:14:26.864 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-19 11:14:26.865 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-19 11:14:27.770 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:14:27.772 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 11:14:27.829 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 0 JPA repository interfaces.
+2021-04-19 11:14:27.847 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:14:27.848 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 11:14:27.874 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2021-04-19 11:14:29.441 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 11:14:29.453 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:14:29.454 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 11:14:29.454 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 11:14:29.617 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 11:14:29.617 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2752 ms
+2021-04-19 11:14:29.876 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:14:29.888 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 11:14:29.956 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:14:30.026 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-19 11:14:30.197 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 11:14:31.252 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 11:14:31.270 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 11:14:32.163 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 11:14:32.165 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:14:32.166 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 11:14:32.166 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 11:14:32.365 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:14:42.361 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 11:14:42.369 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:14:42.489 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - stopped async job due acquisition
+2021-04-19 11:14:42.489 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - stopped async job due acquisition
+2021-04-19 11:14:42.492 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:14:42.495 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-04-19 11:14:42.496 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:14:42.570 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-04-19 11:14:42.576 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-04-19 11:14:42.600 [restartedMain] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-19 11:15:36.270 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2021-04-19 11:15:36.310 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 2128 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 11:15:36.311 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 11:15:36.368 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-19 11:15:36.368 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-19 11:15:37.274 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:15:37.276 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 11:15:37.330 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 JPA repository interfaces.
+2021-04-19 11:15:37.347 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:15:37.349 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 11:15:37.378 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2021-04-19 11:15:38.935 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 11:15:38.950 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:15:38.951 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 11:15:38.951 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 11:15:39.112 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 11:15:39.113 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2744 ms
+2021-04-19 11:15:39.364 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:15:39.375 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 11:15:39.439 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:15:39.514 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-19 11:15:39.682 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 11:15:40.985 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 11:15:41.021 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 11:15:41.898 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 11:15:41.901 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:15:41.902 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 11:15:41.903 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 11:15:43.305 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 11:15:43.324 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:15:43.386 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 11:15:43.388 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 11:15:43.389 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 11:15:43.405 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 7.494 seconds (JVM running for 8.407)
+2021-04-19 11:15:58.392 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 11:15:58.399 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:17:38.375 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 11:17:38.375 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 11:17:38.384 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-19 11:29:40.114 [Thread-8] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:29:40.115 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - stopped async job due acquisition
+2021-04-19 11:29:40.115 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - stopped async job due acquisition
+2021-04-19 11:29:40.118 [Thread-8] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:29:40.120 [Thread-8] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-04-19 11:29:40.121 [Thread-8] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:29:40.294 [Thread-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-04-19 11:29:40.602 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 2128 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 11:29:40.602 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 11:29:41.040 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:29:41.040 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 11:29:41.078 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 JPA repository interfaces.
+2021-04-19 11:29:41.083 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:29:41.084 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 11:29:41.107 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2021-04-19 11:29:41.363 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 11:29:41.364 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:29:41.364 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 11:29:41.364 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 11:29:41.406 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 11:29:41.406 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 796 ms
+2021-04-19 11:29:41.478 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:29:41.484 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 11:29:41.507 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:29:42.425 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2021-04-19 11:29:42.426 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 11:29:42.711 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 11:29:42.711 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:29:42.711 [Thread-15] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 11:29:42.712 [Thread-14] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 11:29:43.133 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 11:29:43.143 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:29:43.147 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 11:29:43.149 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 11:29:43.150 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 11:29:43.152 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 2.623 seconds (JVM running for 848.155)
+2021-04-19 11:29:43.155 [restartedMain] INFO  o.s.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-04-19 11:29:52.748 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 11:29:52.748 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:30:56.852 [Thread-11] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:30:56.854 [Thread-14] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - stopped async job due acquisition
+2021-04-19 11:30:56.854 [Thread-15] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - stopped async job due acquisition
+2021-04-19 11:30:56.856 [Thread-11] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:30:56.857 [Thread-11] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-04-19 11:30:56.857 [Thread-11] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:30:56.905 [Thread-11] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2021-04-19 11:30:57.262 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 2128 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 11:30:57.262 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 11:30:57.634 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:30:57.634 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 11:30:57.669 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 JPA repository interfaces.
+2021-04-19 11:30:57.674 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:30:57.674 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 11:30:57.697 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2021-04-19 11:30:57.916 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 11:30:57.916 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:30:57.917 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 11:30:57.917 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 11:30:57.953 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 11:30:57.953 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 684 ms
+2021-04-19 11:30:58.002 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:30:58.006 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 11:30:58.027 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:30:58.699 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2021-04-19 11:30:58.699 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 11:30:58.970 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 11:30:58.970 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:30:58.971 [Thread-21] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 11:30:58.971 [Thread-22] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 11:30:59.332 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 11:30:59.341 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:30:59.345 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 11:30:59.346 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 11:30:59.346 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 11:30:59.352 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 2.148 seconds (JVM running for 924.355)
+2021-04-19 11:30:59.354 [restartedMain] INFO  o.s.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-04-19 11:31:08.434 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 11:31:08.434 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:31:31.971 [Thread-18] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:31:31.971 [Thread-21] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - stopped async job due acquisition
+2021-04-19 11:31:31.971 [Thread-22] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - stopped async job due acquisition
+2021-04-19 11:31:31.974 [Thread-18] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:31:31.975 [Thread-18] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-04-19 11:31:31.975 [Thread-18] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:31:32.629 [Thread-18] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2021-04-19 11:31:32.958 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 2128 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 11:31:32.959 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 11:31:33.291 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:31:33.291 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 11:31:33.318 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 JPA repository interfaces.
+2021-04-19 11:31:33.321 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:31:33.321 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 11:31:33.338 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2021-04-19 11:31:33.551 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 11:31:33.551 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:31:33.552 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 11:31:33.552 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 11:31:33.587 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 11:31:33.587 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 623 ms
+2021-04-19 11:31:33.636 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:31:33.640 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 11:31:33.663 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:32:17.821 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2021-04-19 11:32:17.853 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 16932 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 11:32:17.854 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 11:32:17.913 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-19 11:32:17.914 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-19 11:32:18.849 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:32:18.851 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 11:32:18.904 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 0 JPA repository interfaces.
+2021-04-19 11:32:18.923 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:32:18.925 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 11:32:18.953 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2021-04-19 11:32:20.495 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 11:32:20.508 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:32:20.508 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 11:32:20.509 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 11:32:20.703 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 11:32:20.703 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2789 ms
+2021-04-19 11:32:21.128 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:32:21.139 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 11:32:21.214 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:32:21.296 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-19 11:32:21.509 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 11:32:23.929 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 11:32:23.944 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 11:32:24.780 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 11:32:24.782 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:32:24.783 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 11:32:24.783 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 11:32:26.022 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 11:32:26.040 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:32:26.077 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 11:32:26.081 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 11:32:26.082 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 11:32:26.096 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 8.645 seconds (JVM running for 9.564)
+2021-04-19 11:32:41.976 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 11:32:41.986 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:34:22.624 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 11:34:22.624 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 11:34:22.633 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-19 11:38:20.996 [Thread-8] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:38:20.997 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - stopped async job due acquisition
+2021-04-19 11:38:20.997 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - stopped async job due acquisition
+2021-04-19 11:38:21.000 [Thread-8] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:38:21.002 [Thread-8] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-04-19 11:38:21.003 [Thread-8] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:38:21.091 [Thread-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-04-19 11:38:21.381 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 16932 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 11:38:21.381 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 11:38:21.818 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:38:21.818 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 11:38:21.852 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 JPA repository interfaces.
+2021-04-19 11:38:21.857 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:38:21.857 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 11:38:21.875 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2021-04-19 11:38:22.102 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 11:38:22.103 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:38:22.103 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 11:38:22.103 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 11:38:22.147 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 11:38:22.147 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 757 ms
+2021-04-19 11:38:22.216 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:38:22.222 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 11:38:22.240 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:38:22.824 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2021-04-19 11:38:22.825 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 11:38:23.065 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 11:38:23.065 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:38:23.066 [Thread-14] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 11:38:23.066 [Thread-15] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 11:38:23.442 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 11:38:23.455 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:38:23.460 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 11:38:23.462 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 11:38:23.462 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 11:38:23.467 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 2.164 seconds (JVM running for 366.935)
+2021-04-19 11:38:23.469 [restartedMain] INFO  o.s.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-04-19 11:38:37.052 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 11:38:37.052 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:38:47.351 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2021-04-19 11:38:47.390 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 17368 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 11:38:47.391 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 11:38:47.447 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-19 11:38:47.448 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-19 11:38:48.378 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:38:48.380 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 11:38:48.447 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 0 JPA repository interfaces.
+2021-04-19 11:38:48.464 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:38:48.466 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 11:38:48.492 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2021-04-19 11:38:50.035 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 11:38:50.050 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:38:50.051 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 11:38:50.051 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 11:38:50.228 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 11:38:50.228 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2780 ms
+2021-04-19 11:38:50.502 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:38:50.514 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 11:38:50.585 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:38:50.653 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-19 11:38:50.829 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 11:38:51.991 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 11:38:52.008 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 11:38:52.862 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 11:38:52.865 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:38:52.867 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 11:38:52.867 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 11:38:54.133 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 11:38:54.154 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:38:54.192 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 11:38:54.194 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 11:38:54.194 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 11:38:54.212 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 7.226 seconds (JVM running for 8.147)
+2021-04-19 11:39:00.909 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 11:39:00.909 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 11:39:00.916 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-19 11:39:09.009 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 11:39:09.017 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:46:23.594 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2021-04-19 11:46:23.626 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 16552 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 11:46:23.627 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 11:46:23.684 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-19 11:46:23.684 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-19 11:46:24.598 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:46:24.600 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 11:46:24.655 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 JPA repository interfaces.
+2021-04-19 11:46:24.674 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 11:46:24.675 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 11:46:24.701 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2021-04-19 11:46:26.238 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 11:46:26.251 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:46:26.251 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 11:46:26.251 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 11:46:26.419 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 11:46:26.420 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2735 ms
+2021-04-19 11:46:26.659 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 11:46:26.669 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 11:46:26.740 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:46:26.813 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-19 11:46:26.985 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 11:46:28.325 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 11:46:28.342 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 11:46:29.157 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 11:46:29.158 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 11:46:29.159 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 11:46:29.159 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 11:46:30.453 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 11:46:30.484 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 11:46:30.534 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 11:46:30.539 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 11:46:30.540 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 11:46:30.572 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 7.355 seconds (JVM running for 8.273)
+2021-04-19 11:46:47.055 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 11:46:47.063 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:46:53.451 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 11:46:53.451 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 11:46:53.457 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-04-19 14:06:24.103 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2021-04-19 14:06:24.138 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 16084 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 14:06:24.139 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 14:06:24.201 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-19 14:06:24.202 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-19 14:06:25.170 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 14:06:25.171 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 14:06:25.227 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 JPA repository interfaces.
+2021-04-19 14:06:25.243 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 14:06:25.245 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 14:06:25.275 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2021-04-19 14:06:26.760 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 14:06:26.772 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 14:06:26.772 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 14:06:26.772 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 14:06:26.941 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 14:06:26.941 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2739 ms
+2021-04-19 14:06:27.209 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 14:06:27.220 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 14:06:27.280 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 14:06:27.349 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-19 14:06:27.523 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 14:06:28.932 [task-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 14:06:28.950 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-19 14:06:29.775 [restartedMain] INFO  org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2021-04-19 14:06:29.777 [restartedMain] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 14:06:29.778 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - starting to acquire async jobs due
+2021-04-19 14:06:29.778 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - starting to acquire async jobs due
+2021-04-19 14:06:31.007 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-19 14:06:31.026 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-19 14:06:31.071 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-19 14:06:31.075 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-04-19 14:06:31.077 [restartedMain] INFO  o.s.data.repository.config.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-04-19 14:06:31.094 [restartedMain] INFO  com.cat.SystemApplication - Started SystemApplication in 7.362 seconds (JVM running for 8.385)
+2021-04-19 14:06:44.729 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 14:06:44.736 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 14:08:03.849 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 14:08:03.849 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 14:08:03.856 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-19 15:04:53.483 [Thread-8] INFO  org.activiti.engine.impl.asyncexecutor.AbstractAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2021-04-19 15:04:53.483 [Thread-6] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable - stopped async job due acquisition
+2021-04-19 15:04:53.483 [Thread-5] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable - stopped async job due acquisition
+2021-04-19 15:04:53.487 [Thread-8] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 15:04:53.490 [Thread-8] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-04-19 15:04:53.490 [Thread-8] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 15:04:53.554 [Thread-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-04-19 15:04:53.835 [restartedMain] INFO  com.cat.SystemApplication - Starting SystemApplication on LAPTOP-JLQG3V42 with PID 16084 (D:\xmgl\xmgl_server\target\classes started by 63531 in D:\xmgl\xmgl_server)
+2021-04-19 15:04:53.836 [restartedMain] INFO  com.cat.SystemApplication - No active profile set, falling back to default profiles: default
+2021-04-19 15:04:54.284 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 15:04:54.284 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-19 15:04:54.323 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 JPA repository interfaces.
+2021-04-19 15:04:54.328 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 15:04:54.328 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 15:04:54.352 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2021-04-19 15:04:54.627 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-19 15:04:54.628 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-19 15:04:54.628 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 15:04:54.628 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 15:04:54.676 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 15:04:54.676 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 833 ms
+2021-04-19 15:04:54.745 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 15:04:54.751 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-19 15:04:54.774 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]

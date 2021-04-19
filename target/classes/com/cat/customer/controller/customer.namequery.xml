@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer>
+	<Customer>
+		<query id="Customer_mainQuery">
+			<sql>select o from Customer o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+				and ( (:corporatName is null or :corporatName ='') or lower(o.corporatName) like concat('%',concat(lower(:corporatName)),'%'))
+				and ( (:salesman is null or :salesman ='') or lower(o.salesman) like concat('%',concat(lower(:salesman)),'%'))
+				and ( (:legalPerson is null or :legalPerson ='') or lower(o.legalPerson) like concat('%',concat(lower(:legalPerson)),'%'))
+			</sql>
+			<countsql>select count(o.id) from Customer o where (1=1)
+				and o.dictionaryData in ('1')
+				and ( (:userName is null or :userName ='') or lower(o.crtUname) like concat('%',concat(lower(:userName)),'%'))
+				and ( (:corporatName is null or :corporatName ='') or lower(o.corporatName) like concat('%',concat(lower(:corporatName)),'%'))
+				and ( (:salesman is null or :salesman ='') or lower(o.salesman) like concat('%',concat(lower(:salesman)),'%'))
+				and ( (:legalPerson is null or :legalPerson ='') or lower(o.legalPerson) like concat('%',concat(lower(:legalPerson)),'%'))
+			</countsql>
+			<!-- orderby 非必要节点 无默认值 -->
+			<orderby>o.id asc</orderby>
+			<parm>
+				<name id="userName">
+					<type>String</type>
+				</name>
+				<name id="corporatName">
+					<type>String</type>
+				</name>
+				<name id="salesman">
+					<type>String</type>
+				</name>
+				<name id="legalPerson">
+					<type>String</type>
+				</name>
+			</parm>
+		</query>
+	</Customer>
+</customer>
